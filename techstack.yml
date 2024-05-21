@@ -1,0 +1,68 @@
+repo_name: naywintx/Droid-ify
+report_id: 39f5825f2dc017b8473e42cec30ae9f8
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:31:10+00:00'
+requested_by: Iamlooker
+provider: github
+branch: main
+detected_tools_count: 5
+tools:
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/naywintx/Droid-ify
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/naywintx/Droid-ify/blob/main/app/build.gradle.kts
+  detection_source: app/build.gradle.kts
+  last_updated_by: Iamlooker
+  last_updated_on: 2022-08-15 15:30:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/Droid-ify
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/naywintx/Droid-ify/blob/main/gradlew
+  detection_source: gradlew
+  last_updated_by: Mohit
+  last_updated_on: 2021-03-07 12:50:35.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/naywintx/Droid-ify/blob/main/app/build.gradle.kts
+  detection_source: app/build.gradle.kts
+  last_updated_by: Iamlooker
+  last_updated_on: 2022-08-15 15:30:58.000000000 Z
